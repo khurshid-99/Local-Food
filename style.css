@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "mona";
-  src: url("./fonts/Mona-Sans.ttf") format("ttf");
+  font-family: "khur";
+  src: url("./fonts/Mona-Sans.ttf");
 }
 
 
@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "mona";
+  font-family: "khur";
 }
 html,
 body {
