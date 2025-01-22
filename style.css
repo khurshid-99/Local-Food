@@ -31,6 +31,9 @@ nav {
   color: #fff;
   z-index: 999;
 }
+nav img {
+  display: none;
+}
 
 nav ul {
   display: flex;
@@ -102,7 +105,7 @@ header {
 #join_our_team {
   outline: none !important;
   border: none;
-  padding: 0.9vw 2vw;
+  padding: 1vw 2vw;
   background: #ffe345;
   border-radius: 50px;
   font-size: 0.8vw;
@@ -545,8 +548,7 @@ header {
   overflow-y: hidden;
 }
 
-
-.swiper_buttons_2 button{
+.swiper_buttons_2 button {
   display: inline-block;
   bottom: 0;
   outline: none;
@@ -555,9 +557,8 @@ header {
   padding: 1.5rem;
   height: 5rem;
   width: 5rem;
-
 }
-.swiper_buttons_2 button img{
+.swiper_buttons_2 button img {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.562);
 }
@@ -959,4 +960,312 @@ footer {
   #section_7_part_1_logs img {
     width: 6vw;
   }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 3vw 5vw;
+  }
+  nav img {
+    display: inline-block;
+    width: 1.5rem;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  /* header-start */
+
+  header {
+    height: 40vh;
+  }
+
+  #header_text {
+    position: absolute;
+    top: 35%;
+    padding: 0 5vw;
+    color: #fff;
+  }
+
+  #header_text h4 {
+    font-size: 2vw;
+    gap: 5px;
+  }
+  #line-x {
+    height: 1px;
+    width: 35px;
+  }
+  #header_text h1 {
+    font-size: 10vw;
+  }
+  #header_text h2 {
+    font-size: 10vw;
+  }
+
+  #join_our_team {
+    padding: 2vw 3.5vw;
+    border-radius: 50px;
+    font-size: 2vw;
+    margin-top: 2vw;
+  }
+
+  #header_footer {
+    display: flex;
+    padding: 0 5vw;
+    top: 85%;
+  }
+  #pause {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+  #scroll_down {
+    margin-top: 0vw;
+  }
+  #scroll_down h4 {
+    font-size: 2.5vw;
+  }
+  #line-y {
+    width: 30px;
+    height: 1.5px;
+    margin-left: 1vw;
+  }
+  /* header-end */
+  /* .section_2-start */
+  .section_2 {
+    height: 65vh;
+    padding-top: 5vw;
+  }
+
+  #section_2_patr_1 h4 {
+    font-size: 2vw;
+  }
+  #section_2_patr_1 h1 {
+    font-size: 6vw;
+    margin-top: 5px;
+  }
+
+  #wrapers_brand {
+    width: 40vw;
+    margin-top: 0;
+  }
+  #section_2_patr_2 #wrapers_brand #brands_1 img {
+    width: 10vw;
+    margin-left: 1vw;
+  }
+
+  #wrapers_brand_2 {
+    width: 55vw;
+    margin-top: -1vw;
+  }
+
+  #brands_2 {
+    padding: 0;
+    display: inline-block;
+    animation: scrollBrand2 30s linear infinite;
+  }
+
+  #section_2_patr_2 #wrapers_brand_2 #brands_2 img {
+    width: 10vw;
+  }
+
+  #section_2_patr_2 #brands_1 #amazon {
+    padding-top: 3px;
+  }
+
+  #section_2_patr_3 {
+    padding: 0 5vw;
+  }
+  #section_2_patr_3 h4 {
+    font-size: 2vw;
+  }
+  #section_2_patr_3 h1 {
+    font-size: 3.5vw;
+  }
+  #section_2_patr_3 p {
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
+  #view_more {
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    text-wrap: nowrap;
+    background-color: #ffe345;
+    font-size: 1.5vw;
+  }
+  /* .section_2-end */
+  /* .section_3-start */
+  .section_3 {
+    height: 40vw;
+  }
+  .scroller #card {
+    margin-right: 5px;
+  }
+  #card {
+    width: 24vw;
+    height: 34vw;
+    border-radius: 3px;
+  }
+
+  #card_text {
+    top: 55%;
+    padding: 0 1vw;
+  }
+  #card_text p {
+    font-size: 8px;
+  }
+  #card_text #book_now {
+    margin-top: 2vw;
+  }
+  #card_text #book_now button {
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    font-size: 5px;
+  }
+  /* .section_3-end */
+  /* .section_4-start  */
+  .section_4 {
+    height: 200vw;
+    flex-direction: column;
+  }
+  #section_4_part_1 {
+    width: 100%;
+    height: 100vw;
+  }
+  #section_4_part_1 #part_1 {
+    width: 100%;
+  }
+  #section_4_part_1 #part_1 h4 {
+    font-size: 2vw;
+  }
+  #section_4_part_1 #part_1 h1 {
+    font-size: 8vw;
+  }
+  #section_4_part_1 #part_1 h2 {
+    font-size: 2vw;
+  }
+  #section_4_part_1 #part_2 {
+    width: 100%;
+    height: 110vh;
+    margin-top: 5vh;
+  }
+
+  #section_4_part_1 #part_2 p {
+    font-size: 3vw;
+  }
+
+  #section_4_part_1 #part_2 #learn_book button:nth-child(1) {
+    padding: 3vw 4vw;
+    box-shadow: 0px 0px 150px 10px rgba(0, 0, 0, 0.5);
+  }
+  #section_4_part_1 #part_2 #learn_book button:nth-child(2) {
+    padding: 3vw 4vw;
+    box-shadow: 0px 0px 150px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #section_4_part_2 {
+    width: 100%;
+    height: 50%;
+  }
+  #section_4_part_2 img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius: 5px;
+  }
+  /* .section_4-end */
+  /* .section_5-start */
+  .section_5 {
+    height: 30vh;
+    padding: 5vw 10vw;
+  }
+  .section_5 h4 {
+    font-size: 2vw;
+  }
+  .section_5 h1 {
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .section_5 h3 {
+    font-size: 2vw;
+  }
+  .section_5 button {
+    padding: 2vw 3vw;
+    border-radius: 20px;
+    top: 70%;
+  }
+  /* .section_5-end */
+  /* section_6-start */
+  .section_6 {
+    width: 100%;
+    height: 30vh;
+  }
+  #section_6_card {
+    width: 50vw;
+    height: 30vw;
+  }
+  /* .section_6-end */
+  /* .section_7-start */
+  .section_7 {
+    width: 100%;
+    height: 80vh;
+  }
+
+  #section_7_part_1 {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  #section_7_part_1 h4 {
+    font-size: 2vw;
+    margin-top: 0vw;
+  }
+  #section_7_part_1 h1 {
+    font-size: 6vw;
+    margin-bottom: 2vw;
+  }
+  #section_7_part_1_logos {
+    height: 5vw;
+  }
+  #section_7_part_1_logos img {
+    width: 10vw;
+  }
+
+  #section_7_part_2 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+    background: rgb(147, 140, 140);
+    background: linear-gradient(
+      0deg,
+      rgba(216, 216, 216, 0.466) 78%,
+      rgba(255, 255, 255, 1) 10%
+    );
+  }
+
+  #section_7_part_2_cards {
+    width: 60%;
+    height: 55vh;
+  }
+
+  .swiper_buttons_2 button {
+    display: none;
+  }
+
+  #section_7_part_2_card {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 3rem;
+  }
+  #section_7_part_2_card_s_2 img {
+    width: 10vw;
+  }
+  
 }

@@ -27,7 +27,7 @@
         slidesPerView: 2.5,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2.5,
       },
       1024: {
         slidesPerView: 3,
